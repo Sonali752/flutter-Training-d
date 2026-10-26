@@ -1,0 +1,18 @@
+name: simple_banking_app # Give the Flutter package a lowercase project name.
+description: A tiny banking balance demo built with Flutter. # Describe the app for package metadata.
+publish_to: 'none' # Prevent publishing this sample app to pub.dev.
+version: 1.0.0+1 # Set the app's initial semantic version and build number.
+
+environment: # Define the Dart SDK versions supported by this project.
+  sdk: '>=3.3.0 <4.0.0' # Require a compatible Dart 3 SDK.
+
+dependencies: # List packages the running app needs.
+  flutter: # Depend on the Flutter framework.
+    sdk: flutter # Resolve Flutter from the installed SDK.
+
+dev_dependencies: # List packages used only while developing or testing.
+  flutter_test: # Use Flutter's widget testing framework.
+    sdk: flutter # Resolve the test package from the installed Flutter SDK.
+
+flutter: # Start the Flutter-specific project configuration.
+  uses-material-design: true # Include built-in Material Design icons and fonts.
